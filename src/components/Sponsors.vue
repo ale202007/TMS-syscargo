@@ -3,13 +3,8 @@
     <v-container class="py-10" max-width="1220">
       <v-row justify="center">
         <v-col cols="12" align="center">
-          <v-img
-            src="/public/planout.png"
-            max-width="174"
-            max-height="46"
-            class="d-flex align-center"
-          >
-            <img src="/public/happy.png" alt="" />
+          <v-img src="/planout.png" max-width="174" max-height="46" class="d-flex align-center">
+            <img src="/happy.png" alt="" />
           </v-img>
 
           <h2 class="py-5 title">TRUSTED BY OUR 365,000 CLIENTS</h2>
@@ -40,12 +35,12 @@
 import { ref } from 'vue'
 
 const logos = ref([
-  { src: '/public/Group(1).png' },
-  { src: '/public/Group(2).png' },
-  { src: '/public/Group(3).png' },
-  { src: '/public/Group(4).png' },
-  { src: '/public/Group(5).png' },
-  { src: '/public/Group.png' },
+  { src: '/Group(1).png' },
+  { src: '/Group(2).png' },
+  { src: '/Group(3).png' },
+  { src: '/Group(4).png' },
+  { src: '/Group(5).png' },
+  { src: '/Group.png' },
 ])
 </script>
 

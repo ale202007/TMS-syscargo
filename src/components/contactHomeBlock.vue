@@ -4,7 +4,7 @@
       <v-row>
         <v-col cols="7" class="pr-0">
           <img
-            src="/public/contacthome.png"
+            src="/contacthome.png"
             alt=""
             style="height: 100%; object-fit: fill !important ; width: 100%"
           />
@@ -17,7 +17,7 @@
               max-height="46"
               class="d-flex align-center text-center"
             >
-              <img src="/public/lets.png" alt="" />
+              <img src="/lets.png" alt="" />
             </v-img>
             <span class="title">¿NESECITA AYUDA? ESTAMOS PARA AYUDARLE</span>
             <div class="d-flex">

@@ -13,24 +13,50 @@
     </v-row>
     <v-row class="py-4 my-6">
       <v-col v-for="(category, index) in transportCategories" :key="index" cols="12" md="4">
-         <v-card class="mx-auto d-flex justify-center hover-effect flex-column align-center" height="auto" elevation="0"
-          width="auto" style="background: transparent">
-          <v-img class="align-end text-white flex-shrink-0  topimg" height="236" width="308" :src="category.picture"
-            cover>
+        <v-card
+          class="mx-auto d-flex justify-center hover-effect flex-column align-center"
+          height="auto"
+          elevation="0"
+          width="auto"
+          style="background: transparent"
+        >
+          <v-img
+            class="align-end text-white flex-shrink-0 topimg"
+            height="236"
+            width="308"
+            :src="category.picture"
+            cover
+          >
           </v-img>
           <div class="icon-container">
-              <v-icon class="category-icon">{{ category.icon }}</v-icon>
-            </div>
-          <v-img class="align-center text-white bottomimg"  width="391" height="254" src="/src/assets/mark.png" cover>           
+            <v-icon class="category-icon">{{ category.icon }}</v-icon>
+          </div>
+          <v-img
+            class="align-center text-white bottomimg"
+            width="391"
+            height="254"
+            src="/mark.png"
+            cover
+          >
             <v-container max-width="331">
               <div class="d-flex flex-column px-4 cursor-pointer">
                 <h2 class="nameC pt-10">{{ category.name }}</h2>
-                <p class="captionC">{{ category.description }}</p>               
-                <v-divider :thickness="3" class="my-4 divider border-opacity-100"  color="black"></v-divider>
+                <p class="captionC">{{ category.description }}</p>
+                <v-divider
+                  :thickness="3"
+                  class="my-4 divider border-opacity-100"
+                  color="black"
+                ></v-divider>
                 <div class="d-flex" style="justify-content: space-between">
-                  <router-link :to="{ name: 'ServiceDetail', params: { serviceId: index } }" class="link">READ
-                    MORE</router-link>
-                  <router-link :to="{ name: 'ServiceDetail', params: { serviceId: index } }" class="link icon-link">
+                  <router-link
+                    :to="{ name: 'ServiceDetail', params: { serviceId: index } }"
+                    class="link"
+                    >READ MORE</router-link
+                  >
+                  <router-link
+                    :to="{ name: 'ServiceDetail', params: { serviceId: index } }"
+                    class="link icon-link"
+                  >
                     <v-icon color="#EA950E" icon="mdi-arrow-right-circle" size="x-large"></v-icon>
                   </router-link>
                 </div>
@@ -107,7 +133,9 @@
 }
 
 .hover-effect {
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
   z-index: 1;
 }
 
@@ -118,7 +146,7 @@
 .hover-effect:hover .icon-link .v-icon {
   color: black;
 }
-.divider{
+.divider {
   margin-left: 0;
 }
 
@@ -131,7 +159,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .icon-link:hover {
@@ -194,16 +224,16 @@
 </style>
 
 <script lang="ts">
-import { useTransportStore } from '@/stores/servicesStore';
-import { defineComponent } from 'vue';
-import { storeToRefs } from 'pinia';
+import { useTransportStore } from '@/stores/servicesStore'
+import { defineComponent } from 'vue'
+import { storeToRefs } from 'pinia'
 
 export default defineComponent({
   setup() {
-    const store = useTransportStore();
-    const { transportCategories } = storeToRefs(store);
+    const store = useTransportStore()
+    const { transportCategories } = storeToRefs(store)
 
-    return { transportCategories };
-  }
-});
+    return { transportCategories }
+  },
+})
 </script>

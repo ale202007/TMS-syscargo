@@ -11,12 +11,12 @@
           <v-row>
             <v-col cols="12" md="6">
               <v-img
-                src="/public/planout.png"
+                src="/planout.png"
                 max-width="196"
                 max-height="46"
                 class="d-flex text-center align-center"
               >
-                <img src="/public/porque.png" alt="" />
+                <img src="/porque.png" alt="" />
               </v-img>
 
               <h2 class="py-5 title">¿POR QUÉ ELEGIRNOS?</h2>
@@ -30,7 +30,7 @@
                   <div class="contenedor">
                     <div class="elipse1"></div>
                     <div class="elipse2">
-                      <img src="/public/delivery.png" alt="" style="width: 40px; height: 30px" />
+                      <img src="/delivery.png" alt="" style="width: 40px; height: 30px" />
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -45,11 +45,7 @@
                   <div class="contenedor">
                     <div class="elipse1"></div>
                     <div class="elipse2">
-                      <img
-                        src="/public/customer-service.png"
-                        alt=""
-                        style="width: 40px; height: 30px"
-                      />
+                      <img src="/customer-service.png" alt="" style="width: 40px; height: 30px" />
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -64,7 +60,7 @@
                   <div class="contenedor">
                     <div class="elipse1"></div>
                     <div class="elipse2">
-                      <img src="/public/value.png" alt="" style="width: 40px; height: 30px" />
+                      <img src="/value.png" alt="" style="width: 40px; height: 30px" />
                     </div>
                   </div>
                   <div class="d-flex flex-column">
@@ -78,11 +74,7 @@
               </div>
             </v-col>
             <v-col cols="12" md="6" class="d-flex justify-center" align-self="center">
-              <v-img
-                src="/public/03390-icon-service-Content-Safety 1.png"
-                max-width="413"
-                height="413"
-              >
+              <v-img src="/03390-icon-service-Content-Safety 1.png" max-width="413" height="413">
               </v-img>
             </v-col>
           </v-row>
@@ -91,7 +83,7 @@
       <v-row>
         <v-col cols="12" class="d-flex justify-end">
           <v-img
-            src="/public/forklift-pallet-jack-loader-heavy-machinery-logistics-crane-9473abb22d2acc15a9345f1ed8de155d 1(1).png"
+            src="/forklift-pallet-jack-loader-heavy-machinery-logistics-crane-9473abb22d2acc15a9345f1ed8de155d 1(1).png"
             max-width="250"
             height="250"
           ></v-img>

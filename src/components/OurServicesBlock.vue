@@ -42,7 +42,7 @@
                 class="align-center text-white bottomimg"
                 width="391"
                 height="254"
-                src="/src/assets/mark.png"
+                src="/mark.png"
                 cover
               >
                 <div class="icon-container">

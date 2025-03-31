@@ -3,13 +3,8 @@
     <v-container class="py-10" max-width="1220">
       <v-row justify="center">
         <v-col cols="12" align="center">
-          <v-img
-            src="/public/planout.png"
-            max-width="174"
-            max-height="46"
-            class="d-flex align-center"
-          >
-            <img src="/public/TESTIMONIOS.png" alt="" />
+          <v-img src="/planout.png" max-width="174" max-height="46" class="d-flex align-center">
+            <img src="/TESTIMONIOS.png" alt="" />
           </v-img>
 
           <h2 class="py-5 title">NUESTROS CLIENTES OPINAN</h2>
@@ -39,12 +34,12 @@
                 style="height: 100%"
               >
                 <v-img
-                  src="/public/romboout.png"
+                  src="/romboout.png"
                   max-width="70"
                   max-height="100"
                   class="d-flex align-center text-center out"
                 >
-                  <img src="/public/romboin.png" alt="" style="width: 50px; height: 70px" />
+                  <img src="/romboin.png" alt="" style="width: 50px; height: 70px" />
                 </v-img>
                 <div class="d-flex">
                   <v-divider
@@ -121,9 +116,6 @@ const slides = ref([
     role: 'Co-Founder',
   },
 ])
-
-
-
 </script>
 
 <style scoped>

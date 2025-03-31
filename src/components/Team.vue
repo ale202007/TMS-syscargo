@@ -3,13 +3,8 @@
     <v-container class="py-12" max-width="1220">
       <v-row justify="center">
         <v-col cols="12" align="center">
-          <v-img
-            src="/public/planout.png"
-            max-width="174"
-            max-height="46"
-            class="d-flex align-center"
-          >
-            <img src="/public/TEAM.png" alt="" />
+          <v-img src="/planout.png" max-width="174" max-height="46" class="d-flex align-center">
+            <img src="/TEAM.png" alt="" />
           </v-img>
 
           <h2 class="py-5 title">NUESTRO EQUIPO PROFESIONAL</h2>

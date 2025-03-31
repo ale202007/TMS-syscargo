@@ -16,7 +16,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="6" md="1">
-          <v-img src="/src/assets/arrow.png" max-width="50" height="120"></v-img>
+          </arrow.png" max-width="50" height="120"></v-img>
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
@@ -32,7 +32,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="6" md="1">
-          <v-img src="/src/assets/arrow.png" max-width="50" height="120"></v-img>
+          </arrow.png" max-width="50" height="120"></v-img>
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
@@ -58,7 +58,7 @@
           <div class="mb-4">
             <div class="text-center mb-3">
               <a href="/">
-                <img src="/src/assets/logo.jpeg" alt="" style="width: 200px; height: 200px" />
+                <img src="/logo.jpeg" alt="" style="width: 200px; height: 200px" />
               </a>
             </div>
             <p class="subtitle-2 textsublogo pb-5">
@@ -72,7 +72,7 @@
         <!-- Columna: Enlaces útiles -->
         <v-col cols="12" sm="6" md="2" class="mb-5">
           <h5 class="text-uppercase font-weight-bold mb-2 usefullLinks">Useful Links</h5>
-          <v-img src="/src/assets/rectangle.png" width="100px" class="mb-4"></v-img>
+          <v-img src="/rectangle.png" width="100px" class="mb-4"></v-img>
           <ul class="footer-list">
             <li><a href="/about">About Us</a></li>
             <li><a href="/services">Services</a></li>
@@ -86,7 +86,7 @@
         <!-- Columna: Nuestros servicios -->
         <v-col cols="12" sm="6" md="2" class="mb-5">
           <h5 class="text-uppercase font-weight-bold mb-2 usefullLinks">Our Services</h5>
-          <v-img src="/src/assets/rectangle.png" width="100px" class="mb-4"></v-img>
+          <v-img src="/rectangle.png" width="100px" class="mb-4"></v-img>
           <ul class="footer-list">
             <li><a href="#air-freight">Air Freight</a></li>
             <li><a href="#ocean-freight">Ocean Freight</a></li>
@@ -99,7 +99,7 @@
         <!-- Columna: Suscripción al newsletter -->
         <v-col cols="12" md="4" class="mb-5">
           <h5 class="text-uppercase font-weight-bold mb-2 usefullLinks">Subscribe Now</h5>
-          <v-img src="/src/assets/rectangle.png" width="100px" class="mb-4"></v-img>
+          <v-img src="/rectangle.png" width="100px" class="mb-4"></v-img>
           <p class="mb-4">
             Continually evolve worldwide vortals rather than process centric human capital.
             Subscribe for our latest news & articles. and send message.
