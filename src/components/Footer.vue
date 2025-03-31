@@ -16,7 +16,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="6" md="1">
-          </arrow.png" max-width="50" height="120"></v-img>
+          <v-img src="/arrow.png" max-width="50" height="120"></v-img>
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
@@ -32,7 +32,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="6" md="1">
-          </arrow.png" max-width="50" height="120"></v-img>
+          <v-img src="/arrow.png" max-width="50" height="120"></v-img>
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
