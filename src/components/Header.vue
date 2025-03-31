@@ -39,7 +39,7 @@
                       <v-icon>mdi-menu</v-icon>
                     </v-btn>
                     <v-spacer />
-                    <div class="d-none d-md-flex align-center">
+                    <div class="d-flex align-center">
                       <router-link to="/" color="black" class="link"> Inicio </router-link>
                       <router-link to="/reservar" color="black" class="link">
                         Reservar
@@ -66,7 +66,7 @@
                     <v-spacer />
                   </v-sheet>
 
-                  <v-navigation-drawer v-model="drawer" temporary class="d-md-none">
+                  <!-- <v-navigation-drawer v-model="drawer" temporary class="d-md-none">
                     <v-list>
                       <v-list-item> Gestión Logística </v-list-item>
                       <v-list-item> Planificación y Transporte de Mercancía </v-list-item>
@@ -75,7 +75,7 @@
                       <v-list-item> Socios </v-list-item>
                       <v-list-item> Sobre Nosotros </v-list-item>
                     </v-list>
-                  </v-navigation-drawer>
+                  </v-navigation-drawer> -->
                 </v-col>
               </v-row>
             </v-col>
