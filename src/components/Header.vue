@@ -40,18 +40,17 @@
                     </v-btn>
 
                     <div class="d-none d-md-flex align-center">
-                      <router-link to="/" color="black" class="link">
-                        Gestión Logística
-                      </router-link>
-                      <router-link to="/" color="black" class="link">
-                        Planificación y Transporte de Mercancía
-                      </router-link>
+                      <router-link to="/" color="black" class="link"> Inicio </router-link>
                       <router-link to="/reservar" color="black" class="link">
                         Reservar
                       </router-link>
+                      <router-link to="/services" color="black" class="link">
+                        Servicios
+                      </router-link>
                       <router-link to="/plans" color="orange" class="link"> Planes </router-link>
-                      <router-link to="/" color="black" class="link"> Socios </router-link>
-                      <router-link to="/" color="black" class="link"> Sobre Nosotros </router-link>
+                      <router-link to="/contact" color="black" class="link">
+                        Contáctenos
+                      </router-link>
                     </div>
 
                     <v-spacer />

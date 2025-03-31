@@ -11,7 +11,7 @@
             <!-- Dirección -->
             <div class="mb-2 d-flex flex-column">
               <strong class="custom">Office Address:</strong>
-              <p class="caption">2245 Gilbert Ave, Cincinnati, OH 45206, United States</p>
+              <p class="caption">calle 76 entre 29 y 27,playa</p>
             </div>
           </div>
         </v-col>
@@ -20,14 +20,15 @@
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
+            0
             <div class="yellow mr-4">
               <i class="fas fa-mobile-alt" style="font-size: x-large"></i>
             </div>
             <!-- Contacto -->
             <div class="mb-2 d-flex flex-column">
               <strong class="custom">CONTACT US:</strong>
-              <p class="caption">info.logic@transpro.com +1 800-226-4054</p>
-              <p class="caption">+1 800-226-4054</p>
+              <p class="caption">informatica@acubamos.cu +5363402860</p>
+              <!-- <p class="caption">+1 800-226-4054</p> -->
             </div>
           </div>
         </v-col>
