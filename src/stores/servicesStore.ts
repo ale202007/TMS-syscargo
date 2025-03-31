@@ -7,20 +7,20 @@ export const useTransportStore = defineStore('transport', {
         name: 'Marítima',
         description: 'Carga a través de rutas marítimas.',
         icon: 'mdi-anchor',
-        picture: '/public/industrial-port-de-barcelona-evening 1.png',
+        picture: '/industrial-port-de-barcelona-evening 1.png',
       },
       {
         name: 'Aérea',
         description: 'Envío de mercancías en aviones de carga.',
         icon: 'mdi-airplane',
         picture:
-          '/public/plane-trucks-are-flying-towards-destination-with-brightest-3d-rendering-illustration 1.png',
+          '/plane-trucks-are-flying-towards-destination-with-brightest-3d-rendering-illustration 1.png',
       },
       {
         name: 'Terrestre',
         description: 'Transporte de bienes en camiones.',
         icon: 'mdi-truck',
-        picture: '/public/writing-address-box 1.png',
+        picture: '/writing-address-box 1.png',
       },
       {
         name: 'Express',

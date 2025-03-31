@@ -12,7 +12,7 @@
         <v-col cols="5" class="pl-0">
           <div class="d-flex flex-column pa-7 ga-7" style="background-color: #080c24; height: 100%">
             <v-img
-              src="/public/planout.png"
+              src="/planout.png"
               max-width="149"
               max-height="46"
               class="d-flex align-center text-center"

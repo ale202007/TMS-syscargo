@@ -3,7 +3,7 @@
     <v-system-bar style="height: auto" absolute>
       <v-row>
         <v-col cols="12" md="3" class="px-0" style="padding-bottom: 9px">
-          <v-img src="/public/left.png" height="123" cover class="custom"></v-img>
+          <v-img src="/left.png" height="123" cover class="custom"></v-img>
         </v-col>
         <v-col cols="12" md="9" class="">
           <v-row>
