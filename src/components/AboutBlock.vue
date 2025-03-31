@@ -138,6 +138,6 @@
   left: -4rem;
   width: 108px;
   height: 93px;
-  background: url('/shape.png') no-repeat center/cover;
+  background: url('/src/assets/shape.png') no-repeat center/cover;
 }
 </style>
