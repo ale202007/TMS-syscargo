@@ -6,7 +6,7 @@
           <v-col cols="12" class="text-center">
             <div class="feature-title">
               <div class="d-flex flex-column">
-                <v-img src="/src/assets/rect2.png" height="46" max-width="142"></v-img>
+                <v-img src="/rect2.png" height="46" max-width="142"></v-img>
 
                 <h2 class="text-h4 font-weight-bold QO pt-6">¿QUE OFRECEMOS?</h2>
               </div>

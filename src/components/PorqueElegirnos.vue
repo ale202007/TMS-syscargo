@@ -3,7 +3,7 @@
     <v-container fluid style="background-color: #080c24" class="px-0">
       <v-row>
         <v-col cols="12" align="start">
-          <v-img src="/public/silueta.svg" max-width="250" height="250"></v-img>
+          <v-img src="/silueta.svg" max-width="250" height="250"></v-img>
         </v-col>
       </v-row>
       <v-row>
