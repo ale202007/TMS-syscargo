@@ -20,7 +20,6 @@
         </v-col>
         <v-col cols="12" sm="6" md="3">
           <div class="d-flex align-center">
-            0
             <div class="yellow mr-4">
               <i class="fas fa-mobile-alt" style="font-size: x-large"></i>
             </div>
@@ -57,9 +56,9 @@
         <v-col cols="12" md="4" class="mb-5">
           <!-- Nombre o Logo -->
           <div class="mb-4">
-            <div class="text-center mb-3">
+            <div class="mb-3">
               <a href="/">
-                <img src="/logo.jpeg" alt="" style="width: 200px; height: 200px" />
+                <img src="/logo-footer.png" alt="" />
               </a>
             </div>
             <p class="subtitle-2 textsublogo pb-5">

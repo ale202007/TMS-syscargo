@@ -38,7 +38,7 @@
                     <v-btn icon class="d-md-none" @click="drawer = !drawer">
                       <v-icon>mdi-menu</v-icon>
                     </v-btn>
-
+                    <v-spacer />
                     <div class="d-none d-md-flex align-center">
                       <router-link to="/" color="black" class="link"> Inicio </router-link>
                       <router-link to="/reservar" color="black" class="link">
