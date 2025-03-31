@@ -66,12 +66,6 @@ const slides = ref([
     subtitle:
       'Servicio de transporte de carga hacia Cuba tanto aéreo como marítimo con calidad, rapidez y profesionalismo.',
   },
-  {
-    image: '/sliderback.png', // Reemplaza con tu imagen
-    title: 'ÚNICA DE SU TIPO EN CUBA & EL MEJOR SERVICIO DE TRANSPORTE DE CARGA',
-    subtitle:
-      'Servicio de transporte de carga hacia Cuba tanto aéreo como marítimo con calidad, rapidez y profesionalismo.',
-  },
 ])
 </script>
 
