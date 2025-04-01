@@ -16,7 +16,28 @@
       </v-col>
 
       <v-col cols="12" md="5">
-        <v-img src="/rect.png" height="46" max-width="142" class="mb-5"></v-img>
+        <v-img
+          src="/planout.png"
+          height="54"
+          max-width="195"
+          class="d-flex align-center mb-5 justify-center"
+        >
+          <h2
+            class=""
+            style="
+              font-size: 16px;
+              line-height: 26px;
+              font-weight: 600;
+              font-family: 'Public Sans';
+              color: #ea950e;
+              text-align: center;
+              display: inline-block;
+              width: 100%;
+            "
+          >
+            SOBRE NOSOTROS
+          </h2>
+        </v-img>
 
         <h2 class="font-weight-bold mb-3 TB">
           Bienvenidos a la mejor empresa de transportación en Cuba
@@ -52,7 +73,7 @@
 
         <div class="text-center pt-6">
           <v-btn class="text-none text-subtitle-1" color="#ea950e" variant="flat" size="large">
-            ABOUT MORE
+            Leer más
           </v-btn>
         </div>
       </v-col>

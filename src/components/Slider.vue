@@ -43,13 +43,21 @@
           {{ item.subtitle }}
         </p>
         <div class="pt-5">
-          <v-btn class="text-none text-subtitle-1 mr-4" color="#ea950e" variant="flat" size="large">
-            Nuestros Servicios
-          </v-btn>
-
-          <v-btn class="text-none text-subtitle-1" color="white" variant="flat" size="large"
-            >Contáctenos
-          </v-btn>
+          <router-link to="/services">
+            <v-btn
+              class="text-none text-subtitle-1 mr-4"
+              color="#ea950e"
+              variant="flat"
+              size="large"
+            >
+              Nuestros Servicios
+            </v-btn>
+          </router-link>
+          <router-link to="/contact">
+            <v-btn class="text-none text-subtitle-1" color="white" variant="flat" size="large">
+              Contáctenos
+            </v-btn>
+          </router-link>
         </div>
       </v-container>
     </v-carousel-item>

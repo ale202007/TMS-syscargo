@@ -3,15 +3,30 @@
     <v-container class="py-10" max-width="1220">
       <v-row justify="center">
         <v-col cols="12" align="center">
-          <v-img src="/planout.png" max-width="174" max-height="46" class="d-flex align-center">
-            <img src="/happy.png" alt="" />
+          <v-img src="/planout.png" max-width="184" max-height="50" class="d-flex align-center">
+            <h2
+              class=""
+              style="
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                font-family: 'Public Sans';
+                color: #ea950e;
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+              "
+            >
+              CLIENTES FELICES
+            </h2>
           </v-img>
 
-          <h2 class="py-5 title">TRUSTED BY OUR 365,000 CLIENTS</h2>
+          <h2 class="py-5 title">RECOMENDADO POR 365,000 CLIENTES SATISFECHOS</h2>
 
           <p class="caption" style="max-width: 600px">
-            Dramatically enhance interactive metrics for reliable services. Proactively unleash
-            fully researched e-commerce.
+            Mejora drásticamente las métricas interactivas para servicios confiables. Libera
+            proactivamente el potencial del comercio electrónico con soluciones totalmente
+            investigadas.
           </p>
         </v-col>
       </v-row>

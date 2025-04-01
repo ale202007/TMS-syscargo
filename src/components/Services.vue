@@ -5,8 +5,8 @@
         <div style="width: 605px" class="text-center">
           <h2 class="title">Nuestros Servicios</h2>
           <p class="caption">
-            Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive
-            innovative e-commerce and distributed paradigms.
+            Optimice rápidamente modelos cooperativos para obtener un ROI de alto impacto a largo plazo.
+            Impulse de manera dinámica el comercio electrónico innovador y paradigmas distribuidos
           </p>
         </div>
       </v-col>
@@ -51,7 +51,7 @@
                   <router-link
                     :to="{ name: 'ServiceDetail', params: { serviceId: index } }"
                     class="link"
-                    >READ MORE</router-link
+                    >LEER MÁS</router-link
                   >
                   <router-link
                     :to="{ name: 'ServiceDetail', params: { serviceId: index } }"
@@ -112,7 +112,7 @@
 
 .icon-container {
   position: absolute;
-  top: 250px;
+  top: 235px;
   right: 2rem;
   background: white;
   border-radius: 50%;
@@ -172,18 +172,7 @@
   color: black !important;
 }
 
-@media (max-width: 600px) {
-  .icon-container {
-    width: 50px;
-    height: 50px;
-    top: 180px;
-    right: 10px;
-  }
 
-  .category-icon {
-    font-size: 25px;
-  }
-}
 @media (max-width: 1200px) {
   .icon-container {
     right: 2rem; /* Ajusta la posición en pantallas más pequeñas */

@@ -13,13 +13,13 @@
                   <span class="adresstime">
                     <!-- <i class="fas fa-map-marker-alt me-2 text-warning"></i> -->
                     <v-icon class="me-2 text-warning">mdi-map-marker-outline</v-icon>
-                    2500 Southbranch Blvd A, United States</span
+                    calle 76 entre 29 y 27,Playa</span
                   >
                 </v-col>
                 <v-col cols="12" md="4" class="d-flex">
                   <span class="adresstime">
-                    <i class="far fa-clock me-2 text-warning"></i> Mon - Sat: 8 am - 5 pm, Sunday:
-                    CLOSED</span
+                    <i class="far fa-clock me-2 text-warning"></i> LUN - SAB: 8 am - 5 pm, DOMINGO:
+                    CERRADO</span
                   >
                 </v-col>
                 <v-col cols="12" md="4" align="center">
@@ -61,7 +61,7 @@
                       variant="flat"
                       size="large"
                     >
-                      Get A Quote
+                    PEDIR COTIZACIÓN
                     </v-btn>
                     <v-spacer />
                   </v-sheet>

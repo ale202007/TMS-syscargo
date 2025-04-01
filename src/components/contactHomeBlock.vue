@@ -17,7 +17,21 @@
               max-height="46"
               class="d-flex align-center text-center"
             >
-              <img src="/lets.png" alt="" />
+              <h2
+                class=""
+                style="
+                  font-size: 16px;
+                  line-height: 26px;
+                  font-weight: 600;
+                  font-family: 'Public Sans';
+                  color: #ea950e;
+                  text-align: center;
+                  display: inline-block;
+                  width: 100%;
+                "
+              >
+                HABLEMOS
+              </h2>
             </v-img>
             <span class="title">¿NESECITA AYUDA? ESTAMOS PARA AYUDARLE</span>
             <div class="d-flex">
@@ -29,7 +43,7 @@
               </div>
 
               <div>
-                <h3 class="text-h6 font-weight-bold mb-1 TITLE">Have Any Question</h3>
+                <h3 class="text-h6 font-weight-bold mb-1 TITLE">Tiene Alguna pregunta</h3>
                 <span class="phone"> +19524357106 </span>
               </div>
             </div>
@@ -41,7 +55,7 @@
                 size="x-large"
                 rounded="0"
               >
-                CONTACT US
+                CONTACTENOS
               </v-btn>
             </div>
           </div>

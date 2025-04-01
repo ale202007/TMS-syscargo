@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-
 export const useTransportStore = defineStore('transport', {
   state: () => ({
     transportCategories: [
@@ -26,37 +25,37 @@ export const useTransportStore = defineStore('transport', {
         name: 'Express',
         description: 'Envíos rápidos y urgentes.',
         icon: 'mdi-truck-fast',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture:'/rowan-freeman-clYlmCaQbzY-unsplash.png',
       },
       {
         name: 'Ferroviaria',
         description: 'Carga en trenes y ferrocarriles.',
         icon: 'mdi-train',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture: '/marissa-beletti-fcRVLXKikGY-unsplash.png',
       },
       {
         name: 'Rastreo de Contenedores',
         description: 'Monitoreo en tiempo real.',
         icon: 'mdi-package',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture: '/matt-richmond-AQhOfrdQOGQ-unsplash.png',
       },
       {
         name: 'Gestión de Almacén',
         description: 'Administración de inventarios.',
         icon: 'mdi-warehouse',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture: '/ruchindra-gunasekara-GK8x_XCcDZg-unsplash.jpg',
       },
       {
         name: 'Rastreo de GPS',
         description: 'Seguimiento en tiempo real.',
         icon: 'mdi-map-marker',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture: '/maxim-hopman--16na5rDDRk-unsplash.png',
       },
       {
         name: 'Gestión de Consulta',
         description: 'Asesoramiento logístico.',
         icon: 'mdi-help-circle',
-        picture: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+        picture: '/van-tay-media-Dx6lpoMAG-Y-unsplash.png',
       },
     ],
   }),

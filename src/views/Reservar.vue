@@ -221,7 +221,7 @@ import FormReserva from '@/components/FormReserva.vue'
 
 const bannerTitle = 'RESERVAR ENVÍO'
 const breadcrumb = [
-  { title: 'Home', disabled: false, href: '/' },
+  { title: 'Inicio', disabled: false, href: '/' },
   { title: 'Reservar envío', disabled: true },
 ]
 </script>
